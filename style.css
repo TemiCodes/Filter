@@ -1,0 +1,22 @@
+h3{
+    font-size: 25px;
+
+}
+.btn-primary:hover{
+    background-color: aqua;
+
+}
+canvas{
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes animation1{
+    from{
+        box-shadow: 1px 1px 38px aqua;
+    }
+    to{
+        box-shadow: 1px 1px 38px red;
+    }
+}
